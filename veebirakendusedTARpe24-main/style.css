@@ -1,0 +1,109 @@
+h1{
+    background-color: darksalmon; /*tausta värv*/
+    color: aqua; /*teksti värv*/
+
+}
+header, footer{
+    font-family: Georgia;
+    font-size: large;
+    width: 100%;
+    border: 5px dotted grey; /*dashed, dotted, double, outline*/
+    background-color: darksalmon;
+    border-radius: 120px;
+    padding:1%; /*vahe teksti ja piiri vahel*/
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    text-align: center; /*teksti joondamine keskel*/
+    margin: 2%;
+    padding: 0;
+    background-color: darksalmon;
+}
+nav li {
+    float: left;
+    padding: 1%;
+}
+main {
+    margin: 50px;
+    padding:1%;
+}
+nav a:hover{ /*link fookuses*/
+    background-color: grey;
+}
+nav li a{
+    font-family: Georgia;
+    font-size: large;
+    text-decoration: none;
+    border-right: 1pt solid grey;
+    border-left: 1pt solid grey;
+    border-radius: 120px;
+    padding: 10px;
+}
+/**********section************/
+section#osa1{
+    display: inline-block;
+    width: 20%;
+    border-right: 1pt solid green;
+    border-bottom: 1pt solid green;
+    border-radius: 60px;
+    padding: 2%;
+    margin-top: 40px;
+}
+section#osa1 h3{
+    text-align: center;
+    background-color: gray;
+    border-radius: 60px;
+    padding: 2%;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+section#osa2{
+    display: inline-block;
+    width: 20%;
+    border-right: 1pt solid gray;
+    border-bottom: 1pt solid gray;
+    border-radius: 60px;
+    padding: 2%;
+    margin-top: 40px;
+}
+section#osa2 h3{
+    text-align: center;
+    background-color: gray;
+    border-radius: 60px;
+    padding: 2%;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+section#osa3{
+    display: inline-block;
+    width: 20%;
+    border-right: 1pt solid aqua;
+    border-bottom: 1pt solid aqua;
+    border-radius: 60px;
+    padding: 2%;
+    margin-top: 40px;
+}
+section#osa3 h3{
+    text-align: center;
+    background-color: gray;
+    border-radius: 60px;
+    padding: 2%;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+section#pildigaleeri{
+    width: 60%;
+}
+section#pildigaleeri h3{
+    background-color: rgb(97, 241, 241);
+    border-radius: 60px;
+}
+section#audio{
+    width: 50%;
+}
