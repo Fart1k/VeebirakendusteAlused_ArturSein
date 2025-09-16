@@ -1,16 +1,16 @@
 h1{
-    background-color: darksalmon; /*tausta värv*/
-    color: aqua; /*teksti värv*/
+    background-color: gray;
+    color: white;
 
 }
 header, footer{
     font-family: Georgia;
     font-size: large;
-    width: 100%;
-    border: 5px dotted grey; /*dashed, dotted, double, outline*/
-    background-color: darksalmon;
+    width: 97.5%;
+    border: 5px solid black;
+    background-color: gray;
     border-radius: 120px;
-    padding:1%; /*vahe teksti ja piiri vahel*/
+    padding:1%;
 }
 footer{
     position: fixed;
@@ -20,10 +20,10 @@ footer{
 }
 nav ul{
     list-style-type: none;
-    text-align: center; /*teksti joondamine keskel*/
+    text-align: center;
     margin: 2%;
     padding: 0;
-    background-color: darksalmon;
+    background-color: red;
 }
 nav li {
     float: left;
@@ -33,7 +33,7 @@ main {
     margin: 50px;
     padding:1%;
 }
-nav a:hover{ /*link fookuses*/
+nav a:hover{
     background-color: grey;
 }
 nav li a{
@@ -46,16 +46,15 @@ nav li a{
     padding: 10px;
 }
 /**********section************/
-section#osa1{
-    display: inline-block;
-    width: 20%;
+section#pildigaleeri{
+    width: 60%;
     border-right: 1pt solid green;
     border-bottom: 1pt solid green;
     border-radius: 60px;
     padding: 2%;
     margin-top: 40px;
 }
-section#osa1 h3{
+section#pildigaleeri h3{
     text-align: center;
     background-color: gray;
     border-radius: 60px;
@@ -63,16 +62,15 @@ section#osa1 h3{
     font-weight: bold;
     font-variant: small-caps;
 }
-section#osa2{
-    display: inline-block;
-    width: 20%;
+section#video{
+    width: 35%;
     border-right: 1pt solid gray;
     border-bottom: 1pt solid gray;
     border-radius: 60px;
     padding: 2%;
     margin-top: 40px;
 }
-section#osa2 h3{
+section#video h3{
     text-align: center;
     background-color: gray;
     border-radius: 60px;
@@ -80,16 +78,16 @@ section#osa2 h3{
     font-weight: bold;
     font-variant: small-caps;
 }
-section#osa3{
-    display: inline-block;
-    width: 20%;
-    border-right: 1pt solid aqua;
-    border-bottom: 1pt solid aqua;
+section#audio{
+    display: block;
+    width: 50%;
+    border-right: 1pt solid black;
+    border-bottom: 1pt solid black;
     border-radius: 60px;
     padding: 2%;
     margin-top: 40px;
 }
-section#osa3 h3{
+section#audio h3{
     text-align: center;
     background-color: gray;
     border-radius: 60px;
@@ -97,13 +95,19 @@ section#osa3 h3{
     font-weight: bold;
     font-variant: small-caps;
 }
-section#pildigaleeri{
+section#tood {
     width: 60%;
-}
-section#pildigaleeri h3{
-    background-color: rgb(97, 241, 241);
+    border-right: 1pt solid green;
+    border-bottom: 1pt solid green;
     border-radius: 60px;
+    padding: 2%;
+    margin-top: 40px;
 }
-section#audio{
-    width: 50%;
+section#tood a {
+    font-size: 30px;
+    text-align: center;
+    border-radius: 60px;
+    padding: 2%;
+    font-weight: bold;
+    font-variant: small-caps;
 }
