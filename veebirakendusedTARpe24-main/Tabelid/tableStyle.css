@@ -1,0 +1,23 @@
+#minuTabel {
+    width: 300px;
+    height: 200px;
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+
+#minuTabel td {
+    text-align: center;
+    border: 1px solid black;
+}
+
+#minuTabel tr:nth-child(1) td:nth-child(3) {
+    background-color: aqua;
+}
+
+#minuTabel tr:nth-child(3) td:nth-child(2) {
+    background-color: bisque;
+}
+
+#minuTabel tr:nth-child(5) td:nth-child(1) {
+    background-color: blue;
+}
