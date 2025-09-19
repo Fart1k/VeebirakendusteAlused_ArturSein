@@ -1,0 +1,101 @@
+h1 {
+    color: white;
+    background-color: gray;
+    text-shadow: 5cap;
+}
+
+.algus p{
+    background-color: aqua;
+    text-shadow: 5cap;
+}
+
+#sonaP {
+    color: white;
+    background-color: red;
+    text-shadow: 5cap;
+}
+
+#sonad {
+    width: 20%;
+    height: 20%;
+    border: 1px black solid;
+}
+#sonad td {
+    border: 1px black solid;
+}
+
+#suured_numbrid {
+    width: 30%;
+    height: 200px;
+    border: 1px black solid;
+
+}
+#suured_numbrid td {
+    text-align: center;
+    border: 1px black solid;
+}
+
+#sonad tr:nth-child(1) td:nth-child(1) {
+    background-color: aqua;
+}
+#sonad tr:nth-child(1) td:nth-child(2) {
+    background-color: red;
+}
+#sonad tr:nth-child(1) td:nth-child(3) {
+    background-color: blue;
+}
+
+#suured_numbrid tr:nth-child(2) td:nth-child(2) {
+    background-color: beige;
+}
+#suured_numbrid tr:nth-child(1) td:nth-child(1) {
+    background-color: beige;
+}
+#suured_numbrid tr:nth-child(1) td:nth-child(3) {
+    background-color: beige;
+}
+#suured_numbrid tr:nth-child(3) td:nth-child(1) {
+    background-color: beige;
+}
+#suured_numbrid tr:nth-child(3) td:nth-child(3) {
+    background-color: beige;
+}
+
+#ruut1 {
+    background-color: aqua;
+    text-shadow: 5cap;
+}
+#ruut2 {
+    background-color: beige;
+    text-shadow: 5cap;
+}
+#ruut3 {
+    background-color: red;
+    text-shadow: 5cap;
+}
+
+#ebakorraparane1 {
+    background-color: blue;
+    text-shadow: 5cap;
+}
+#ebakorraparane2 {
+    background-color: bisque;
+    text-shadow: 5cap;
+}
+#ebakorraparane3 {
+    background-color: brown;
+    text-shadow: 5cap;
+}
+
+#pesa1 {
+    background-color: brown;
+    text-shadow: 5cap;
+}
+#pesa2 {
+    background-color: brown;
+    text-shadow: 5cap;
+}
+#pesa3 {
+    background-color: brown;
+    text-shadow: 5cap;
+}
