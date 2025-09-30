@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Õpilase registreerimisvorm</title>
   <link rel="stylesheet" href="opilaseStyle.css">
+  <script src="opilaseVormStyle.js"></script>
 </head>
 <body>
 <form>
@@ -14,41 +15,50 @@
     <!--eesnimi-->
     <label for="eesnimi">Eesnimi </label>
     <br>
-    <input type="text" name="eesnimi" id="eesnimi" placeholder="nt Mario" maxlength="30" required>
+    <input type="text" name="eesnimi" id="eesnimi" placeholder="nt Mario" maxlength="30" required oninput="nimiLugemine()">
     <br><br>
     <!--perenimi-->
     <label for="perenimi">Perenimi</label>
     <br>
-    <input type="text" name="perenimi" id="perenimi" maxlength="30" placeholder="nt Metshein" required>
+    <input type="text" name="perenimi" id="perenimi" maxlength="30" placeholder="nt Metshein" required oninput="nimiLugemine()">
     <br><br>
+    <div id="vastus">Vastus</div>
+    <br>
     <!--sünnikuupäev-->
     <label for="sünnikuupäev">Sünnikuupäev</label>
     <br>
-    <input type="date" name="sünnikuupäev" id="sünnikuupäev" min="1950-01-01" max="2025-12-31" value="1980-01-01" required>
+    <input type="date" name="sünnikuupäev" id="sünnikuupäev" min="1950-01-01" max="2025-12-31" value="1980-01-01" required oninput="vanuseLugemine()">
+    <br>
+    <div id="vastus2">Vastus</div>
     <br><br>
     <!--sugu-->
     <fieldset>
       <legend>Sugu</legend>
-      <input type="radio" name="naine" id="naine">
+      <input type="radio" name="naine" id="naine" onchange="suguValik()">
       <label for="naine">Naine</label>
-      <input type="radio" name="mees" id="mees">
+      <input type="radio" name="mees" id="mees" onchange="suguValik()">
       <label for="mees">Mees</label>
-      <input type="radio" name="muu" id="muu">
+      <input type="radio" name="muu" id="muu" onchange="suguValik()">
       <label for="muu">Muu</label>
     </fieldset>
   </div>
+  <div id="vastus3">Vastus</div>
 <!--kontakt-->
   <div id="kontakt">
     <p>Kontakt</p>
     <!--epost-->
     <label for="epost">E-post</label>
     <br>
-    <input type="email" name="epost" id="epost" maxlength="100" placeholder="nimi@kool.ee" required>
+    <input type="email" name="epost" id="epost" maxlength="100" placeholder="nimi@kool.ee" required oninput="epostiLugemine()">
+    <br>
+    <div id="vastus4">Vastus</div>
     <br><br>
     <!--telefon-->
     <label for="telefon">Mobiiltelefon</label>
     <br>
-    <input type="tel" name="telefon" id="telefon" pattern="^\d{5}$" placeholder="+372 51234567" required>
+    <input type="tel" name="telefon" id="telefon" pattern="^\d{5}$" placeholder="+372 51234567" required oninput="telefoniLugemine()">
+    <br>
+    <div id="vastus5">Vastus</div>
     <br><br>
     <!--aadress-->
     <label for="aadress">Aadress</label>
