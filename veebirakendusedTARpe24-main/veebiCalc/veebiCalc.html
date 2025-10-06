@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Veebikalkulaator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="veebiCalc.js"></script>
+</head>
+<div id="form">
+    <h2>Teenuse valimine. Vali mida sa tahad</h2>
+    <input type="radio" name="valik" id="v1" value="teenus1" onchange="piltmyistatus()">
+    <label for="v1">Teenus1</label>
+    <br>
+    <input type="radio" name="valik" id="v2" value="teenus2" onchange="piltmyistatus()">
+    <label for="v2">Teenus2</label>
+    <br>
+    <input type="radio" name="valik" id="v3" value="teenus3" onchange="piltmyistatus()">
+    <label for="v3">Teenus3</label>
+    <br>
+    <input type="radio" name="valik" id="v4" value="teenus4" onchange="piltmyistatus()">
+    <label for="v4">Teenus4</label>
+    <br>
+    <input type="radio" name="valik" id="v5" value="teenus5" onchange="piltmyistatus()">
+    <label for="v5">Teenus5</label>
+    <br><br>
+    <div id="vastus"></div>
+    <!-- 3 -->
+    <h2>Kui palju sa tahad osta?</h2>
+    <label for="tk">Vali kogus</label>
+    <input type="number" id="tk" min="1" max="100" step="1" value="1">
+    <br>
+    <button type="button" onclick="arvutaPiltHind()">Arvuta</button>
+    <div id="vastus2"></div>
+</div>
+<div id="pildiAla">
+    <img src="" alt="" id="pilt">
+</div>
+</body>
+</html>

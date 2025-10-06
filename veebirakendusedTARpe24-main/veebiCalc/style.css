@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+}
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: lightblue;
+}
+#pildiAla {
+    text-align: center;
+    margin-top: 10px;
+}
+#pilt {
+    border-radius: 10px;
+}
+#form {
+    background: white;
+    width: 1000px;
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    line-height: 30px;
+}
+
