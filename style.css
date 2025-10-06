@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: gray;
+}
+h1 {
+    text-align: center;
+}
+form {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin: auto;
+}
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: lightblue;
+}
+#tulemus {
+    background: white;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px gray;
+}
